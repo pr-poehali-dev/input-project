@@ -7,9 +7,6 @@ export function FaqSection() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
         <div>
-          <p className="text-muted-foreground mb-6">
-            Не нашли ответ на свой вопрос? Напишите нам — разберём вместе.
-          </p>
           <Accordion type="single" collapsible className="w-full">
             <FaqItem
               question="Что такое ключевая ставка простыми словами?"
