@@ -53,9 +53,17 @@ export function NextGenSection() {
           </CardHeader>
           <CardContent>
             <div className="h-32 flex items-end gap-1 pb-4">
-              {[30, 45, 60, 55, 70, 85, 75, 90, 80, 95, 85, 78, 82, 88, 92, 87, 95, 85, 80, 75].map((h, i) => (
-                <div key={i} className="bg-muted-foreground/30 w-full rounded-t" style={{ height: `${h}%` }} />
-              ))}
+              {[30, 45, 60, 55, 70, 85, 75, 90, 80, 95, 85, 78, 82, 88, 92, 87, 95, 85, 80, 75].map((h, i) => {
+                const colors = [
+                  '#3b82f6','#6366f1','#8b5cf6','#a855f7','#ec4899',
+                  '#ef4444','#f97316','#eab308','#22c55e','#14b8a6',
+                  '#06b6d4','#3b82f6','#6366f1','#8b5cf6','#a855f7',
+                  '#ec4899','#ef4444','#f97316','#eab308','#22c55e',
+                ]
+                return (
+                  <div key={i} className="w-full rounded-t" style={{ height: `${h}%`, backgroundColor: colors[i], opacity: 0.85 }} />
+                )
+              })}
             </div>
           </CardContent>
         </Card>
