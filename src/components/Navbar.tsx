@@ -32,24 +32,26 @@ export function Navbar() {
             <span className="font-bold">ЦБ Просто</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
-            <a href="#" className="transition-colors hover:text-foreground/80">
+            <a href="#about" className="transition-colors hover:text-foreground/80">
               О ЦБ
             </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
+            <a href="#glossary" className="transition-colors hover:text-foreground/80">
               Глоссарий
             </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
+            <a href="#articles" className="transition-colors hover:text-foreground/80">
               Статьи
             </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
+            <a href="#faq" className="transition-colors hover:text-foreground/80">
               FAQ
             </a>
           </nav>
         </div>
         <div className="ml-auto flex items-center space-x-4">
-          <Button variant="outline" className="ml-4">
-            Начать изучение
-          </Button>
+          <a href="#about">
+            <Button variant="outline" className="ml-4">
+              Начать изучение
+            </Button>
+          </a>
         </div>
       </div>
     </header>

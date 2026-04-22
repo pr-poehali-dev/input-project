@@ -18,21 +18,21 @@ export function HeroSection() {
         Сложные экономические процессы — в доступной и наглядной форме. Узнайте, как решения Центрального банка влияют на цены, кредиты и вашу повседневную жизнь.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
-        <Button size="lg" className="px-8">
-          Начать изучение
-        </Button>
-        <Button size="lg" variant="outline" className="px-8">
-          Глоссарий
-        </Button>
-        <Button size="lg" variant="outline" className="px-8">
-          О проекте
-        </Button>
-        <Button size="lg" variant="outline" className="px-8">
-          Статьи
-        </Button>
-        <Button size="lg" variant="outline" className="px-8">
-          FAQ
-        </Button>
+        <a href="#about">
+          <Button size="lg" className="px-8">Начать изучение</Button>
+        </a>
+        <a href="#glossary">
+          <Button size="lg" variant="outline" className="px-8">Глоссарий</Button>
+        </a>
+        <a href="#about">
+          <Button size="lg" variant="outline" className="px-8">О проекте</Button>
+        </a>
+        <a href="#articles">
+          <Button size="lg" variant="outline" className="px-8">Статьи</Button>
+        </a>
+        <a href="#faq">
+          <Button size="lg" variant="outline" className="px-8">FAQ</Button>
+        </a>
       </div>
     </section>
   )

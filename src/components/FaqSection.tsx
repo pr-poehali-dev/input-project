@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export function FaqSection() {
   return (
-    <section className="container max-w-screen-xl py-20">
+    <section id="faq" className="container max-w-screen-xl py-20">
       <h2 className="text-3xl font-bold mb-12">Частые вопросы о ЦБ</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">

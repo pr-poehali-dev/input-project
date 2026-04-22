@@ -3,7 +3,7 @@ import { Check } from "lucide-react"
 
 export function PersonalOsSection() {
   return (
-    <section className="container max-w-screen-xl py-20">
+    <section id="glossary" className="container max-w-screen-xl py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div>
           <h2 className="text-3xl font-bold mb-4">
