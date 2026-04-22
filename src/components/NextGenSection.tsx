@@ -54,7 +54,8 @@ export function NextGenSection() {
           <CardContent>
             <div className="h-32 flex items-end gap-1 pb-4">
               {[30, 45, 60, 55, 70, 85, 75, 90, 80, 95, 85, 78, 82, 88, 92, 87, 95, 85, 80, 75].map((h, i) => {
-                const color = h >= 70 ? '#22c55e' : '#ef4444'
+                const values = [30, 45, 60, 55, 70, 85, 75, 90, 80, 95, 85, 78, 82, 88, 92, 87, 95, 85, 80, 75]
+                const color = i === 0 || h >= values[i - 1] ? '#22c55e' : '#ef4444'
                 return (
                   <div key={i} className="w-full rounded-t" style={{ height: `${h}%`, backgroundColor: color, opacity: 0.85 }} />
                 )
