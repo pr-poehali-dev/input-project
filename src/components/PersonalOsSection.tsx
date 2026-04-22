@@ -7,20 +7,20 @@ export function PersonalOsSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div>
           <h2 className="text-3xl font-bold mb-4">
-            Финансовая грамотность —
+            Как ЦБ передаёт решения
             <br />
-            ваш главный актив
+            в экономику
           </h2>
           <p className="text-muted-foreground mb-8">
-            Понимание работы Центрального банка помогает принимать умные решения: выбирать вклады, брать кредиты вовремя и не паниковать при новостях об экономике.
+            Воздействие Центрального банка осуществляется через многоступенчатый механизм. Изменение ключевой ставки сначала отражается на межбанковском рынке, затем — на кредитах и вкладах, и в итоге влияет на цены и поведение всей экономики.
           </p>
 
           <Card className="bg-card/50 border-border/40 mb-6">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium">Простые объяснения</CardTitle>
+              <CardTitle className="text-sm font-medium">Косвенное регулирование</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-xs text-muted-foreground">Сложные термины — понятным языком, без воды и жаргона</p>
+              <p className="text-xs text-muted-foreground">ЦБ не управляет ценами напрямую — он меняет условия, в которых принимают решения люди и бизнес</p>
             </CardContent>
           </Card>
 
@@ -36,20 +36,22 @@ export function PersonalOsSection() {
           <Card className="bg-card/50 border-border/40">
             <CardHeader className="pb-2">
               <CardTitle className="text-sm font-medium flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-yellow-500"></div> Пример: Как ЦБ снижает инфляцию
+                <div className="w-2 h-2 rounded-full bg-yellow-500"></div> Механизм передачи решений ЦБ
               </CardTitle>
             </CardHeader>
             <CardContent className="text-xs font-mono">
-              <div className="text-yellow-500 mb-1">Инфляция растёт → ЦБ повышает ставку</div>
-              <div className="text-muted-foreground mb-1">Кредиты дорожают → люди меньше тратят</div>
-              <div className="text-green-500">Спрос падает → инфляция замедляется ✓</div>
+              <div className="text-yellow-500 mb-1">ЦБ меняет ключевую ставку</div>
+              <div className="text-muted-foreground mb-1">→ Межбанковский рынок реагирует первым</div>
+              <div className="text-muted-foreground mb-1">→ Меняются ставки по кредитам и вкладам</div>
+              <div className="text-blue-500 mb-1">→ Домохозяйства и бизнес корректируют расходы</div>
+              <div className="text-green-500">→ Спрос и инфляция приходят к цели ✓</div>
             </CardContent>
           </Card>
 
           <div className="grid grid-cols-2 gap-4">
             <FeatureCheck title="Ключевая ставка" />
-            <FeatureCheck title="Резервные требования" />
-            <FeatureCheck title="Операции на открытом рынке" />
+            <FeatureCheck title="Показатель долговой нагрузки" />
+            <FeatureCheck title="Операции на рынке" />
             <FeatureCheck title="Валютные интервенции" />
           </div>
         </div>

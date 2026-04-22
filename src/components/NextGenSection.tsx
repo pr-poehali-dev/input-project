@@ -6,9 +6,9 @@ import { LineChart, Users, Activity } from "lucide-react"
 export function NextGenSection() {
   return (
     <section className="container max-w-screen-xl py-20">
-      <h2 className="text-3xl font-bold mb-4">Инструменты ЦБ в действии</h2>
+      <h2 className="text-3xl font-bold mb-4">Инфляция и ключевая ставка</h2>
       <p className="text-muted-foreground max-w-2xl mb-12">
-        Центральный банк управляет экономикой страны с помощью целого арсенала инструментов. Разберём, как это работает на практике — наглядно и понятно.
+        Инфляция — это изменение общего уровня цен. Ключевая ставка — главный инструмент ЦБ для её контроля. При росте ставки кредиты дорожают, спрос падает и цены замедляют рост. При снижении — наоборот, создаются условия для расширения потребления и инвестиций.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">

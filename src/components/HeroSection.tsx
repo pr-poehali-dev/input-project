@@ -6,16 +6,16 @@ export function HeroSection() {
     <section className="container max-w-screen-xl py-20 text-center">
       <div className="flex justify-center mb-6">
         <Badge variant="outline" className="px-4 py-1 text-sm rounded-full border-neutral-700">
-          Образовательный проект о финансах
+          ЦБ на связи: гид по финансовой стабильности
         </Badge>
       </div>
       <h1 className="text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl mb-6">
-        Центральный банк
+        Центральный банк —
         <br />
-        простым языком
+        понятно каждому
       </h1>
       <p className="mx-auto max-w-2xl text-muted-foreground mb-8">
-        Разбираем сложные финансовые термины без воды и жаргона. Узнайте, как Центральный банк защищает экономику страны и влияет на вашу жизнь.
+        Сложные экономические процессы — в доступной и наглядной форме. Узнайте, как решения Центрального банка влияют на цены, кредиты и вашу повседневную жизнь.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <Button size="lg" className="px-8">
