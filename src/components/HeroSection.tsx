@@ -6,32 +6,32 @@ export function HeroSection() {
     <section className="container max-w-screen-xl py-20 text-center">
       <div className="flex justify-center mb-6">
         <Badge variant="outline" className="px-4 py-1 text-sm rounded-full border-neutral-700">
-          Публичная бета-версия 2.0
+          Образовательный проект о финансах
         </Badge>
       </div>
       <h1 className="text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl mb-6">
-        Добро пожаловать
+        Центральный банк
         <br />
-        в Nexora
+        простым языком
       </h1>
       <p className="mx-auto max-w-2xl text-muted-foreground mb-8">
-        Универсальная платформа продуктивности, которая помогает командам работать вместе, анализировать данные и эффективно масштабировать бизнес.
+        Разбираем сложные финансовые термины без воды и жаргона. Узнайте, как Центральный банк защищает экономику страны и влияет на вашу жизнь.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <Button size="lg" className="px-8">
-          Функции
+          Начать изучение
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Демо
+          Глоссарий
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Цены
+          О проекте
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Ресурсы
+          Статьи
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Поддержка
+          FAQ
         </Button>
       </div>
     </section>

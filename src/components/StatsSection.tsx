@@ -4,10 +4,10 @@ export function StatsSection() {
   return (
     <section className="container max-w-screen-xl py-16">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <StatCard value="95%" label="Удовлетворенность клиентов" />
-        <StatCard value="4x" label="Быстрее внедрение" />
-        <StatCard value="97%" label="Гарантия доступности" />
-        <StatCard value="450+" label="Активных клиентов" />
+        <StatCard value="8.5%" label="Ключевая ставка ЦБ РФ (2024)" />
+        <StatCard value="1400+" label="Банков под надзором ЦБ" />
+        <StatCard value="1,4 млн ₽" label="Страховая защита вкладов (АСВ)" />
+        <StatCard value="30+" label="Инструментов денежной политики" />
       </div>
     </section>
   )

@@ -29,32 +29,26 @@ export function Navbar() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span className="font-bold">Nexora</span>
+            <span className="font-bold">ЦБ Просто</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Функции
+              О ЦБ
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Ресурсы
+              Глоссарий
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Цены
+              Статьи
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Блог
-            </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
-              Доки
+              FAQ
             </a>
           </nav>
         </div>
         <div className="ml-auto flex items-center space-x-4">
-          <a href="/login" className="text-sm font-medium transition-colors hover:text-foreground/80">
-            Войти
-          </a>
           <Button variant="outline" className="ml-4">
-            Регистрация
+            Начать изучение
           </Button>
         </div>
       </div>

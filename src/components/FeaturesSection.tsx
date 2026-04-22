@@ -3,23 +3,23 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 export function FeaturesSection() {
   return (
     <section className="container max-w-screen-xl py-16">
-      <h2 className="text-3xl font-bold text-center mb-12">Ключевые преимущества</h2>
+      <h2 className="text-3xl font-bold text-center mb-12">Что делает Центральный банк</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <FeatureCard
           number={1}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Контролирует инфляцию"
+          description="ЦБ управляет ключевой ставкой, чтобы цены в магазинах не росли слишком быстро. Это защищает покупательную способность ваших сбережений."
         />
         <FeatureCard
           number={2}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Регулирует банки"
+          description="Центральный банк следит за тем, чтобы коммерческие банки работали честно и не рисковали деньгами вкладчиков. Именно он выдаёт и отзывает лицензии."
         />
         <FeatureCard
           number={3}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Защищает финансовую систему"
+          description="В кризисных ситуациях ЦБ выступает кредитором последней инстанции — поддерживает банки ликвидностью, чтобы не допустить коллапса системы."
         />
       </div>
     </section>
