@@ -1,3 +1,7 @@
-# input-project
+# Nexora - SaaS Лендинг
 
-Initial repository setup for pr-poehali-dev/input-project
+![Preview](preview.png)
+
+Современный темный лендинг для SaaS-продукта. Включает hero-секцию с бейджем бета-версии, превью дашборда, блок фич, статистику, отзывы клиентов, FAQ и CTA-секцию. Идеально подходит для презентации платформ продуктивности, аналитики и командной работы.
+
+`"tags": ["landing", "saas", "dark", "glass", "pricing", "testimonials"]`
