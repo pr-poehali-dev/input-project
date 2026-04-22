@@ -7,9 +7,7 @@ export function CtaSection() {
       <p className="text-muted-foreground max-w-xl mx-auto mb-8">
         Решения Центрального банка определяют уровень цен, доступность кредитов и условия ведения бизнеса. Пора разобраться в этом — без жаргона и сложных формул.
       </p>
-      <a href="#about">
-        <Button size="lg" className="px-8">Начать изучение</Button>
-      </a>
+
     </section>
   )
 }
